@@ -1,0 +1,37 @@
+{
+  "name": "smart-comfort-thermostat-card",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A custom thermostat card for Smart Comfort Climate integration",
+  "main": "dist/smart-comfort-thermostat-card.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "serve": "rollup -c -w --environment SERVE"
+  },
+  "keywords": [
+    "home-assistant",
+    "lovelace",
+    "custom-card",
+    "thermostat",
+    "climate"
+  ],
+  "author": "Smart Comfort Climate",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "rollup": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "lit": "^2.7.0",
+    "custom-card-helpers": "^1.9.0"
+  }
+}
